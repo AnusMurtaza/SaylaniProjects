@@ -1,0 +1,599 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/********************************************** HEADER SECTION STARTS************************************************/
+ 
+.head{
+background-color: royalblue;
+height: auto;
+}
+
+.h_heading{
+    
+    color: white;
+   
+    font-size: 15px;
+    padding-top: 14px;    
+    text-align: center;
+    
+}
+
+.h_buttons 
+{
+   
+    padding-top: 14px;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+
+.h_buttons a
+{
+    color: gray;
+    font-weight: normal;
+    text-align: center;
+}
+
+.icons i
+{
+    padding: 20px 0 0 20px;
+    font-size: 12px;
+}
+
+.icons
+{
+    text-align: center;
+
+}
+
+
+
+.dropdown:hover>.dropdown-menu
+{
+    display: block;
+  
+}
+
+.navbar-nav a
+{
+    color: darkslategrey !important;
+}
+
+.nav-item a
+{
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600 !important;
+    
+}
+
+.nav-item a:hover
+{
+    background-color:royalblue;
+    border-radius: 20px;
+    color: white !important;
+}
+
+.nav-home
+{
+    background-color: royalblue;
+    border-radius: 20px;
+    padding:0 5px 0 5px ;
+    font-weight: 600;
+    font-size: small;
+    
+}
+
+
+
+
+
+.carousel-item img
+{
+
+    height:460px;
+}
+
+/********************************************** HEADER SECTION ENDS************************************************/
+
+
+/********************************************** MARQUEE SECTION STARTS************************************************/
+.news
+{
+    
+    color: white;
+    font-size: medium;
+}
+
+.news span
+{
+    color:lime;
+}
+
+.news a
+{
+    color:blue;
+    text-decoration: none;
+
+}
+
+
+/********************************************** MARQUEE SECTION ENDS************************************************/
+
+
+/********************************************** INTRODUCTION SECTION STARTS************************************************/
+
+
+#introduction
+{
+    background-color:aliceblue ;
+}
+
+
+.intro-heading
+{
+    color: royalblue;
+    font-family: Courier;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.picture-line-one
+{   
+    position: relative;
+}
+
+.picture-line-one::after
+{
+    content: "";
+    height: 3px;
+    width: 4%;
+    background-color: lawngreen;
+    position: absolute;
+    margin-left: 30px;
+    bottom: 8px;
+
+}
+
+.picture-line-two
+{   
+    position: relative;
+    padding-right:150px;
+}
+
+.picture-line-two::after
+{
+    content: "";
+    height: 3px;
+    width: 4%;
+    background-color: lawngreen;
+    position: absolute;
+    bottom: 24px;
+}
+
+.small-logo-image img
+{
+    width: 40px;
+}
+
+.intro-heading span
+{
+    color: darkgreen;
+}
+
+
+
+.intro-paragraph
+{
+    text-align: justify;
+    font-size: 16px;
+    color: gray;
+    line-height: 1.8;
+    margin: 2px 80px 70px 80px;
+    font-weight:600 ;
+}
+/********************************************** INTRODUCTION SECTION ENDS************************************************/
+
+
+
+
+
+
+
+
+
+
+/********************************************** COUNTER SECTION STARTS************************************************/
+
+
+
+.project-work
+{
+ 
+
+    background-color: royalblue;    
+    color: blanchedalmond;
+    font-family:  'Courier', monospace; 
+    
+}
+
+.project-work h1 
+{
+    font-size: 3.5rem;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.con-center h6
+{
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.monthly
+{
+    color: chartreuse;
+    font-size: larger;
+}
+
+.project-work-image
+{
+    padding: 70px 0 70px 0 ;
+}
+
+.project-work-image img
+{
+    height: 40px;
+    color: wheat;
+}
+/********************************************** COUNTER SECTION ENDS************************************************/
+
+
+
+
+
+/********************************************** WHAT WE ARE DOING SECTION STARTS************************************************/
+#doing-section
+{
+    background-color:aliceblue ;
+    font-weight: bolder;
+    padding: 60px 0 60px 0;
+    }
+
+
+.doing-parts img
+{
+    width: 70px;
+    margin-bottom: 15px;
+    transition: 0.7s;
+}
+.doing-parts img:hover
+{
+    
+    transform: translateY(-20px);
+}
+
+.doing-parts
+{
+    padding: 30px;
+    box-shadow: 1px 1px 7px grey; 
+    margin-bottom: 30px;
+    font-weight: bolder;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: white;   
+    transition:0.8s;
+    
+}
+
+.doing-parts:hover
+{
+    
+    transform: translateY(-20px);
+    box-shadow: 0 0 20px 0 rgba(0,0,0, 0.1);
+    background-color: gainsboro;
+    
+}
+
+
+
+.doing-parts-name h4
+{
+    font-weight: 900;
+    color: royalblue;
+    transition: 0.7s;
+}
+
+.doing-parts-name h4:hover
+{
+    color:blue;
+    transform: translateX(-20px);
+}
+
+
+
+
+/********************************************** WHAT WE ARE DOING SECTION ENDS************************************************/
+
+
+/********************************************** UPCOMING_PROJECT SECTION STARTS************************************************/
+
+#upcoming-project
+{
+    color:royalblue;
+    font-family:  'Courier', monospace; 
+    margin: 50px 0 70px 0;
+}
+
+#upcoming-project h3
+{
+    font-weight: bolder;
+    font-size: 30px;
+
+}
+
+.upcoming-box-style
+{
+    background-color:aliceblue ;
+    margin:20px 0 0 10px ;
+    padding: 20px;
+    transition:0.7s;
+}
+
+
+.upcoming-box-style:hover
+{
+    
+    transform: translateX(30px);
+    box-shadow: 0 0 20px 0 rgba(0,0,0, 0.1);
+    background-color: gainsboro;
+    
+}
+
+
+.upcoming-box-style h4{
+    font-size:large;
+    position: relative;
+    left: 25px;
+    top: 10px;
+    font-weight: bold;
+   
+
+}
+
+
+.upcoming-events marquee
+{
+    height: 200px;
+    width: 220px;
+    color: gray;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.upcoming-events a
+{
+    text-decoration: none;
+    color: blue;
+}
+
+
+
+
+
+.line
+{   
+    position: relative;
+}
+
+.line::after
+{
+content: "";
+height: 3px;
+width: 18%;
+background-color: lawngreen;
+position: absolute;
+bottom: 17px;
+}
+
+
+
+
+
+
+
+/********************************************** UPCOMING_PROJECT SECTION ENDS************************************************/
+
+
+/**********************************************IMAGE-GALLERY SECTION STARTS************************************************/
+
+
+#images-gallery
+{
+    margin-bottom: 200px;
+    
+}
+
+.asd img
+{
+    width:200px;
+    
+}
+
+.asd
+{
+   padding:1px;
+
+}
+
+.add
+{
+    padding-left: 50px;
+}
+
+
+/**********************************************IMAGE-GALLERY SECTION ENDS************************************************/
+
+
+
+/********************************************** FOOTER SECTION STARTS ************************************************/
+
+.footersection
+{
+     width: 100%;
+     background-color: rgba(0,0,0,0.8 );
+    color:darkgray;
+    font-size: 14.5px;
+    
+}
+
+.footersection-main
+{
+    padding: 80px 0 50px 0;
+    
+}
+
+.one
+{
+    
+  padding-top: 30px;
+   
+}
+
+
+li
+{
+    list-style-type: none;
+}
+
+.connect-with-us ul li
+{
+    padding:8px;
+    border-radius: 50%;
+    background-color: #4267B2;
+    margin: 3px;
+    display: inline;
+ 
+}
+
+
+.connect-with-us h6
+{
+    
+        margin-bottom: 20px;
+
+}
+
+.footersection-main h6
+{
+    font-size: 18px;
+    font-family: Courier;
+    font-weight: bold;
+    color: white;
+}
+
+ .footer-bio li i
+ {
+     color: green;
+    
+ }
+ 
+ .footer-bio li {
+     padding:7px;
+ }
+
+ .last
+ {
+     background-color: royalblue;
+     display: flex;
+     color: white;
+     font-size: 12px;
+     padding: 20px 0 0 20px;
+     font-weight: 600;
+     
+ }
+
+ 
+#arrow-image img
+{
+    
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    width: 55px;
+    
+    opacity: 0.4;
+}
+#arrow-image img:hover
+{
+    opacity:0.9 ;
+}
+
+/********************************************** FOOTER SECTION ENDS ************************************************/
+
+
+
+
+/********************************************** MEDIA QURIES SECTION STRATS ************************************************/
+
+
+@media only screen and (max-width: 992px)
+{
+    .project-work-image
+{
+padding-top: 10px;
+}
+
+.con-center
+{
+    padding:50px 0  70px 0; 
+}
+.intro-paragraph
+{
+    margin:0 20px 0 20px;
+}
+  
+
+}
+
+
+@media only screen and (max-width: 576px)
+{
+    
+.asd img
+{
+    width:100%;
+    
+}
+
+
+.intro-paragraph
+{
+    margin:0 10px 0 10px;
+}
+
+.add
+{
+   padding: 0;
+}
+
+.image-div
+{
+   margin:10px;
+
+}
+}
+
+/********************************************** MEDIA QURIES SECTION ENDS ************************************************/
