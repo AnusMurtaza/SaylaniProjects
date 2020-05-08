@@ -97,14 +97,6 @@ height: auto;
 
 
 
-
-
-.carousel-item img
-{
-
-    height:460px;
-}
-
 /********************************************** HEADER SECTION ENDS************************************************/
 
 
@@ -577,6 +569,7 @@ padding-top: 10px;
     width:100%;
     
 }
+
 
 
 .intro-paragraph
