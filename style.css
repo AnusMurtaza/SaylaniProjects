@@ -94,7 +94,10 @@ height: auto;
     font-size: small;
     
 }
-
+.carousel-item img
+{
+    height:auto;
+}
 
 
 /********************************************** HEADER SECTION ENDS************************************************/
